@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Footer = () => {
+const Header = () => {
   return (
-    <footer>
-      <p>© 2024 Hashterisk. All rights reserved.</p>
-    </footer>
+    <header>
+      <h1>Welcome to Hashterisk</h1>
+    </header>
   );
 };
 
-export default Footer;
+export default Header;
