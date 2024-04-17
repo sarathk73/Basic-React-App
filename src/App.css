@@ -1,6 +1,16 @@
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
 .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +45,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+main {
+  flex: 1;
+  /* Other styles for your main content area */
 }
